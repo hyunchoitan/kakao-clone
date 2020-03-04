@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -40,8 +40,8 @@
         </span>
       </div>
     </header>
-    <main class="chat">
-      <ul class="messages">
+    <main class="chat-screen">
+      <ul class="chat__messages">
         <span class="chat__timestamp">
           Thursday, February 6, 2020
         </span>
@@ -55,14 +55,14 @@
               Congrats! I love you.
             </div>
           </div>
-          <span class="message__timestamp">
+          <!-- <span class="message__timestamp">
             15:19
-          </span>
+          </span> -->
         </li>
-        <li class="incoming-message message">
-          <span class="message__timestamp">
+        <li class="outgoing-message message">
+          <!-- <span class="message__timestamp">
             15:20
-          </span>
+          </span> -->
           <div class="message__content">
             <div class="message__bubble">
               I love you too.
@@ -79,9 +79,9 @@
               See u later
             </div>
           </div>
-          <span class="message__timestamp">
+          <!-- <span class="message__timestamp">
             15:21
-          </span>
+          </span> -->
         </li>
       </ul>
     </main>
