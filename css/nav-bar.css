@@ -23,9 +23,9 @@
 
 .nav .nav__badge {
   position: absolute;
-  top:-7px;
-  right:-7px;
-  color:white;
+  top: -7px;
+  right: -7px;
+  color: white;
   font-size: 10px;
   background-color: #dc5d46;
   width: 18px;
@@ -34,3 +34,17 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  animation: showNavBar 0.5s ease-out forwards;
+}
