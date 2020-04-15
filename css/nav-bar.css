@@ -46,5 +46,7 @@
 }
 
 .nav {
+  transform: translateY(80px);
   animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.5s;
 }

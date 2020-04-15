@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-/* @keyframes fadeIn {
+@keyframes fadeIn {
   from {
     transform: translateY(40px);
     opacity: 0;
@@ -41,4 +41,4 @@ a {
 
 main {
   animation: fadeIn 0.5s ease-in-out;
-} */
+}
