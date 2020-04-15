@@ -1,17 +1,28 @@
 .chats__body {
   padding: 0;
   background-image: url(../images/chatBG.png);
+  min-height: 200vh;
+  padding-top: 130px;
+}
+
+.chats__body .header-wrapper {
+  position: fixed;
+  background-color: white;
+  padding-top: 5px;
+  top: 0;
+  width: 100%;
+  z-index: 4;
 }
 
 .chats__body .header,
 .chats__body .status-bar {
   padding: 0px 20px;
 }
-
+/* 
 .chat-screen {
   min-height: 200vh;
   padding-top: 30px;
-}
+} */
 
 .chat-screen .chat__messages {
   display: flex;
@@ -80,14 +91,18 @@
   padding: 10px 20px;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  font-weight: 600;
+  color: white;
 }
 
 .incoming-message .message__bubble {
   border-top-left-radius: 0px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
 }
 
 .outgoing-message .message__bubble {
   border-top-right-radius: 0px;
+  background-image: linear-gradient(to right, #dd5e89, #f7bb97);
 }
 
 .outgoing-message .message__content {
